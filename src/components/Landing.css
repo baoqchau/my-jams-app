@@ -12,19 +12,8 @@
   letter-spacing: 0.1rem;
 } */
 
-.selling-points{
-  margin-top:20%;
-  text-align: center;
-  grid-column: 3 / span 1;
-  grid-row: second-line / 1;
-  justify-self: center;
-}
 
-.point-description{
-  grid-column: 3 / span 1;
-  grid-row:  row3-start;
-}
-
+/*
 .landing {
   display:grid;
   grid-template-columns:10% 10% 60% 10% 10%;
@@ -37,19 +26,20 @@
       ellipse closest-side,
       #4B4A4A , #292929
     );
-/*
+*/
 .landing {
   position: fixed;
   padding: 0;
   margin: 0;
 
+  text-align: center;
   top: 0;
   left: 0;
 
   width: 100%;
   height: 100%;
-  background: linear-gradient(45deg, #4B4A4A, #292929) no-repeat center center fixed;
-*/
+  background: radial-gradient(ellipse closest-side, #4B4A4A, #292929) no-repeat center center fixed;
+  
 }
 
 h1 {
@@ -60,13 +50,14 @@ h1 {
   margin-bottom:0px;
 }
 
+
 p {
   color:#707070;
   font-size:1.25rem;
   font-family: 'Montserrat';
-  padding-bottom:100%;
   line-height: 2.6rem;
 }
+
 
 .go-to-album{
   grid-column: 3 / span 1;
@@ -83,3 +74,4 @@ p {
   text-align: center;
   background: #000
 }
+

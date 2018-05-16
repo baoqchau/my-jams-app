@@ -11,7 +11,7 @@ class Nav extends Component {
             <span>
               <svg className="dot" height="28px" width="30px">
                 <circle cx="60%" cy="60%" r="10px"/>
-                <circle class="pulse" cx="60%" cy="60%" r="4px"/>
+                <circle className="pulse" cx="60%" cy="60%" r="4px"/>
               </svg>
             </span>
           </h3>
