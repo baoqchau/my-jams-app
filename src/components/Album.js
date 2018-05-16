@@ -108,7 +108,7 @@ class Album extends Component {
   render() {
     return (
       <body>
-        <section className="album">
+        <div className="album">
           <section id="album-info">
             <img id="album-cover-art" src={this.state.album.albumCover} />
             <div className="album-details">
@@ -150,7 +150,7 @@ class Album extends Component {
             duration={this.audioElement.duration}//
             formatTime={this.formatTime}
           />
-        </section>
+        </div>
       </body>
     );
   }

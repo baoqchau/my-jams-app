@@ -1,23 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
-.library header{
-  font-family: 'montserrat';
-  height:100%;
-  padding-top:20px;
-  color:white;
-  background-image:
-    linear-gradient(
-     45deg,
-    #E38C40,#FF6CCC 
-    );
-}
+.library {
+  position: absolute;
+  padding: 0;
+  margin: 0;
 
-section .library {
-  height:100%;
-  width:100%;
-  background-image:
-    linear-gradient(
-      45deg,
-      #E38C40,#FF6CCC
-    );
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(45deg, #E38C40, #FF6CCC) center center ;
+  overflow-x: scroll;
 }
